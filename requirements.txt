@@ -4,11 +4,11 @@ uvicorn[standard]==0.20.0
 pydantic==2.3.0
 
 # Supabase client e suas dependências
-supabase==0.7.1  # Versão mais estável com as deps antigas
+# supabase==0.7.1  # Versão mais estável com as deps antigas
 httpx==0.23.0
 
 # PDF Generation
-reportlab==3.6.12
+# reportlab==3.6.12
 
 # Utils
 python-multipart==0.0.5
