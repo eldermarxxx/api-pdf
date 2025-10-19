@@ -1,7 +1,7 @@
 # FastAPI e dependências core (versões LTS estáveis)
-fastapi==0.88.0
+fastapi==0.100.0
 uvicorn[standard]==0.20.0
-pydantic==1.10.2
+pydantic==2.3.0
 
 # Supabase client e suas dependências
 supabase==0.7.1  # Versão mais estável com as deps antigas
