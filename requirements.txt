@@ -3,9 +3,9 @@ fastapi==0.95.2
 uvicorn[standard]==0.21.1
 pydantic==1.10.7
 
-# Supabase client
+# Supabase client e suas dependências
 supabase==1.0.3
-httpx>=0.24.1
+httpx>=0.23.0,<0.24.0  # Versão compatível com supabase 1.0.3
 
 # PDF Generation
 reportlab==4.0.4
@@ -14,4 +14,4 @@ reportlab==4.0.4
 python-multipart==0.0.6
 requests==2.31.0
 
-# As versões acima são testadas e compatíveis com Python 3.11
+# As versões acima são testadas e compatíveis com Python 3.11 e Supabase
