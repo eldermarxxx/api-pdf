@@ -1,9 +1,17 @@
-fastapi==0.100.0
-uvicorn[standard]==0.22.0
-pydantic==1.10.14
-supabase==1.0.0
-reportlab==4.0.0
+# FastAPI e dependências core
+fastapi==0.95.2
+uvicorn[standard]==0.21.1
+pydantic==1.10.7
+
+# Supabase client
+supabase==1.0.3
+httpx>=0.24.1
+
+# PDF Generation
+reportlab==4.0.4
+
+# Utils
 python-multipart==0.0.6
 requests==2.31.0
 
-# Ajuste de versões conforme necessário. As versões acima são exemplos modernas.
+# As versões acima são testadas e compatíveis com Python 3.11
